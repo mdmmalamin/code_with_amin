@@ -1,13 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont,
+        "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+        "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background: #0f172a url(./assets/bg-texture.png);
+    color: #fff;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+
+    h2 {
+        @apply text-3xl font-bold;
+    }
+
+    h3 {
+        @apply text-2xl font-medium;
+    }
+
+    h4 {
+        @apply text-xl font-semibold;
+    }
+
+    .skill small {
+        @apply text-metal/70;
+    }
+
+    h5 {
+        @apply text-metal/70 font-semibold;
+    }
+
+    section {
+        @apply mt-64 mx-auto text-center;
+    }
+
+    nav {
+        @apply bg-metal/30 max-w-max px-7 py-3 z-10 fixed left-1/2 -translate-x-1/2 bottom-8 flex gap-3 rounded-full backdrop-blur-lg;
+    }
+
+    nav a {
+        @apply bg-transparent p-4 rounded-full flex text-metal/80 text-lg;
+    }
+
+    nav a:hover {
+        @apply bg-metal/30;
+    }
+
+    nav a.active {
+        @apply bg-bermuda/20 text-white;
+    }
+
+    article {
+        @apply flex items-start;
+    }
+}
+
+@layer components {
+    .btn {
+        @apply border border-bermuda/60 bg-bermuda/60 hover:bg-transparent rounded-sm px-4 py-2;
+    }
+
+    .card {
+        @apply w-40 h-40 lg:w-56 lg:h-56 bg-purple/60 p-8 flex flex-col justify-center items-center rounded-3xl whitespace-nowrap;
+    }
+
+    .card:hover {
+        @apply bg-purple/30;
+    }
+
+    .title {
+        @apply text-2xl font-semibold pt-4 pb-1;
+    }
+
+    .card p {
+        @apply text-sm text-metal/70;
+    }
+
+    .experience {
+        @apply basis-1/2 bg-purple/60 hover:bg-purple/0 hover:border hover:border-bermuda/30 p-4 md:p-12 rounded-3xl;
+    }
+
+    .all-skill {
+        @apply grid grid-cols-2 items-center mt-12 whitespace-nowrap;
+    }
+
+    .skill {
+        @apply text-left my-2;
+    }
+
+    .icon {
+        @apply text-bermuda text-xl mr-4 my-3;
+    }
+
+    .portfolio {
+        @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center md:justify-between gap-12 mt-24;
+    }
+
+    .work {
+        @apply w-60 h-72 md:w-72 md:h-72 xl:w-96 xl:h-96 p-4 md:p-6 rounded-3xl bg-purple/60 flex flex-col gap-4;
+    }
 }
