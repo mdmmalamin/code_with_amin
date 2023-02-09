@@ -38,15 +38,17 @@ code {
         @apply text-xl font-semibold;
     }
 
-    .skill small {
-        @apply text-metal/70;
-    }
-
     h5 {
-        @apply text-metal/70 font-semibold;
+        @apply text-gray-400 font-semibold;
     }
 
-    section {
+    .skill small {
+        @apply text-gray-400;
+    }
+
+    section,
+    nav,
+    footer {
         @apply mt-64 mx-auto text-center;
     }
 
@@ -55,19 +57,24 @@ code {
     }
 
     nav a {
-        @apply bg-transparent p-4 rounded-full flex text-metal/80 text-lg;
+        @apply bg-transparent p-4 rounded-full flex text-bermuda text-lg;
     }
 
     nav a:hover {
-        @apply bg-metal/30;
+        @apply bg-purple/30;
     }
 
     nav a.active {
-        @apply bg-bermuda/20 text-white;
+        @apply bg-purple/50 text-white;
     }
 
     article {
         @apply flex items-start;
+    }
+
+    input,
+    textarea {
+        @apply w-full p-4 rounded-lg bg-transparent border-2 border-bermuda resize-none;
     }
 }
 
@@ -76,8 +83,12 @@ code {
         @apply border border-bermuda/60 bg-bermuda/60 hover:bg-transparent rounded-sm px-4 py-2;
     }
 
+    .my-img {
+        @apply w-60 h-60 lg:w-96 lg:h-96 rounded-3xl rotate-[10deg] hover:rotate-0 duration-500 mx-auto select-none;
+    }
+
     .card {
-        @apply w-40 h-40 lg:w-56 lg:h-56 bg-purple/60 p-8 flex flex-col justify-center items-center rounded-3xl whitespace-nowrap;
+        @apply w-40 h-40 lg:w-56 lg:h-56 bg-purple p-8 flex flex-col justify-center items-center rounded-3xl whitespace-nowrap;
     }
 
     .card:hover {
@@ -89,11 +100,11 @@ code {
     }
 
     .card p {
-        @apply text-sm text-metal/70;
+        @apply text-sm text-gray-400;
     }
 
     .experience {
-        @apply basis-1/2 bg-purple/60 hover:bg-purple/0 hover:border hover:border-bermuda/30 p-4 md:p-12 rounded-3xl;
+        @apply basis-1/2 bg-purple hover:bg-purple/0 hover:border hover:border-bermuda/30 p-4 md:p-12 rounded-3xl;
     }
 
     .all-skill {
@@ -113,6 +124,10 @@ code {
     }
 
     .work {
-        @apply w-60 h-72 md:w-72 md:h-72 xl:w-96 xl:h-96 p-4 md:p-6 rounded-3xl bg-purple/60 flex flex-col gap-4;
+        @apply w-60 h-72 md:w-72 md:h-72 xl:w-96 xl:h-96 p-4 md:p-6 rounded-3xl bg-purple flex flex-col gap-4;
+    }
+
+    .contact {
+        @apply flex flex-col gap-5 w-4/5 mx-auto;
     }
 }
