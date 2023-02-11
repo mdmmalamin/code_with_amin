@@ -5,7 +5,7 @@ import HeaderSocial from "./HeaderSocial";
 
 const Header = () => {
     return (
-        <header className="text-center leading-7 mt-20 relative">
+        <header className="text-center leading-7 pt-20 relative">
             <div>
                 <h4> Hello, I 'm</h4>
                 <h1 className="text-2xl font-semibold">
@@ -25,7 +25,7 @@ const Header = () => {
                     />
                 </div>
                 <a
-                    className="absolute right-0 bottom-20 origin-center rotate-90 text-bermuda text-lg font-light hidden md:block"
+                    className="absolute right-0 bottom-20 origin-center rotate-90 text-bermuda text-lg hidden md:block"
                     href="#contact"
                 >
                     Scroll Down

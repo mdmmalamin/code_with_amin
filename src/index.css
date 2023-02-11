@@ -84,7 +84,7 @@ code {
     }
 
     .social {
-        @apply flex flex-col items-center gap-4 absolute bottom-12 left-2 md:left-0 after:content-[''] after:h-8 after:w-0.5 after:bg-bermuda;
+        @apply flex flex-col items-center gap-4 absolute bottom-20 left-2 md:left-8 after:content-[''] after:h-8 after:w-0.5 after:bg-bermuda;
     }
 
     .about {
@@ -108,7 +108,7 @@ code {
     }
 
     .card:hover {
-        @apply bg-night/30;
+        @apply bg-night/30 hover:bg-shadow;
     }
 
     .card p {
@@ -120,7 +120,7 @@ code {
     }
 
     .experience {
-        @apply basis-1/2 bg-night hover:bg-night/0 hover:border hover:border-bermuda hover:bg-shadow p-4 md:p-12 rounded-3xl;
+        @apply basis-1/2 bg-night hover:bg-night/30 hover:border hover:border-bermuda hover:bg-shadow p-4 md:p-12 rounded-3xl;
     }
 
     .all-skill {

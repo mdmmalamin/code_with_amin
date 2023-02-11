@@ -33,7 +33,7 @@ const Contact = () => {
             <h5> Get To Touch </h5> <h2> Contact Me </h2>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:w-3/4 mx-auto my-24">
                 <div className="text-center">
-                    <article className="w-80 mx-auto flex flex-col justify-center items-center text-center gap-2 bg-night hover:bg-night/50 hover:border hover:border-night rounded-3xl p-6">
+                    <article className="w-80 mx-auto flex flex-col justify-center items-center text-center gap-2 bg-night hover:bg-night/30 hover:bg-shadow hover:border hover:border-night rounded-3xl p-6">
                         <MdOutlineMarkEmailUnread className="text-2xl text-bermuda mb-3" />
                         <h4> Email </h4>
                         <h6 className="text-gray-300">mdmmalamin@gmail.com</h6>
@@ -46,7 +46,7 @@ const Contact = () => {
                             Send a message
                         </a>
                     </article>
-                    <article className="w-80 mx-auto flex flex-col justify-center items-center text-center gap-2 bg-night hover:bg-night/50 hover:border hover:border-night rounded-3xl p-6 my-8">
+                    <article className="w-80 mx-auto flex flex-col justify-center items-center text-center gap-2 bg-night hover:bg-night/30 hover:bg-shadow hover:border hover:border-night rounded-3xl p-6 my-8">
                         <TbBrandMessenger className="text-2xl text-bermuda mb-3" />
                         <h4> Messenger </h4>
                         <h6 className="text-gray-300">mdmmalamin</h6>
@@ -59,7 +59,7 @@ const Contact = () => {
                             Send a message
                         </a>
                     </article>
-                    <article className="w-80 mx-auto flex flex-col justify-center items-center text-center gap-2 bg-night hover:bg-night/50 hover:border hover:border-night rounded-3xl p-6">
+                    <article className="w-80 mx-auto flex flex-col justify-center items-center text-center gap-2 bg-night hover:bg-night/30 hover:bg-shadow hover:border hover:border-night rounded-3xl p-6">
                         <BsWhatsapp className="text-2xl text-bermuda mb-3" />
                         <h4> WhatsApp </h4>
                         <h6 className="text-gray-300">+880 17305 53105</h6>

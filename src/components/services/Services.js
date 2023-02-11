@@ -10,7 +10,7 @@ const Services = () => {
             <h2>Services</h2>
 
             <div className="services">
-                <div className="group w-80 lg:w-1/4 border border-metal hover:border-bermuda hover:bg-shadow rounded-lg px-4 py-12 bg-night relative">
+                <div className="group w-80 lg:w-1/4 border border-metal hover:border-bermuda hover:bg-shadow rounded-lg px-4 py-12 bg-night hover:bg-night/30 relative">
                     <TbResize className="text-3xl group-hover:text-5xl duration-300 -rotate-[30deg] absolute left-2 top-2" />
                     <div>
                         <h1 className="text-3xl font-semibold text-right">
@@ -21,7 +21,7 @@ const Services = () => {
                         </p>
                     </div>
                 </div>
-                <div className="group w-80 lg:w-1/4 border border-metal hover:border-bermuda hover:bg-shadow rounded-lg px-4 py-12 bg-night relative">
+                <div className="group w-80 lg:w-1/4 border border-metal hover:border-bermuda hover:bg-shadow rounded-lg px-4 py-12 bg-night hover:bg-night/30 relative">
                     <AiOutlineCode className="text-3xl group-hover:text-5xl duration-300 -rotate-[30deg] absolute left-2 top-2" />
                     <div>
                         <h1 className="text-3xl font-semibold text-right">
@@ -32,7 +32,7 @@ const Services = () => {
                         </p>
                     </div>
                 </div>
-                <div className="group w-80 lg:w-1/4 border border-metal hover:border-bermuda hover:bg-shadow rounded-lg px-4 py-12 bg-night relative">
+                <div className="group w-80 lg:w-1/4 border border-metal hover:border-bermuda hover:bg-shadow rounded-lg px-4 py-12 bg-night hover:bg-night/30 relative">
                     <VscDebugAlt className="text-3xl group-hover:text-5xl duration-300 -rotate-[30deg] absolute left-2 top-2" />
                     <div>
                         <h1 className="text-3xl font-semibold text-right">

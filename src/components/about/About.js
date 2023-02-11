@@ -13,7 +13,11 @@ const About = () => {
             <div className="about">
                 <div className="basis-1/2">
                     <div className="bg-img">
-                        <img className="about-img" src={Me} alt="Amin" />
+                        <img
+                            className="about-img hover:bg-shadow"
+                            src={Me}
+                            alt="Amin"
+                        />
                     </div>
                 </div>
                 <div className="basis-1/2 px-12 mx-auto">
@@ -44,7 +48,7 @@ const About = () => {
                     </p>
                     <a
                         href="#contact"
-                        className="border border-bermuda bg-bermuda hover:bg-transparent rounded-sm px-8 py-2"
+                        className="border border-bermuda bg-bermuda hover:bg-transparent hover:bg-shadow rounded-sm px-8 py-2"
                     >
                         Let 's Talk
                     </a>

@@ -9,14 +9,14 @@ const CTA = () => {
                 download
                 className="border border-bermuda hover:bg-bermuda rounded-sm px-8 py-2"
             >
-                Download CV{" "}
-            </a>{" "}
+                Download CV
+            </a>
             <a
                 href="#contact"
-                className="border border-bermuda bg-bermuda hover:bg-transparent rounded-sm px-8 py-2 "
+                className="border border-bermuda bg-bermuda hover:bg-transparent hover:bg-shadow rounded-sm px-8 py-2"
             >
-                Let 's Talk{" "}
-            </a>{" "}
+                Let 's Talk
+            </a>
         </div>
     );
 };
