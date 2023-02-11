@@ -48,7 +48,7 @@ const Portfolio = () => {
                     <article className="work" key={idx} work={work}>
                         <div>
                             <img
-                                className="rounded-3xl"
+                                className="rounded-xl"
                                 src={work.img}
                                 alt={work.title}
                             />

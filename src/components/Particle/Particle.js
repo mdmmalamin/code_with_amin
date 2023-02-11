@@ -16,6 +16,7 @@ const Particle = () => {
     }, []);
     return (
         <Particles
+            className=" relative -z-10"
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}

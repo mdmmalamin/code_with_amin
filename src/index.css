@@ -12,7 +12,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
-    background: #0f172a url(./assets/bg-texture.png);
+    background: #181818 url(./assets/bg-texture.png);
     color: #fff;
 }
 
@@ -53,7 +53,7 @@ code {
     }
 
     nav {
-        @apply bg-metal/30 max-w-max px-7 py-3 z-10 fixed left-1/2 -translate-x-1/2 bottom-8 flex gap-3 rounded-full backdrop-blur-lg;
+        @apply bg-metal/30 max-w-max px-7 py-3 z-10 fixed left-1/2 -translate-x-1/2 bottom-4 flex gap-3 rounded-full backdrop-blur-lg;
     }
 
     nav a {
@@ -61,11 +61,11 @@ code {
     }
 
     nav a:hover {
-        @apply bg-purple/30;
+        @apply bg-night/30;
     }
 
     nav a.active {
-        @apply bg-purple/50 text-white;
+        @apply bg-night/50 text-white;
     }
 
     article {
@@ -80,31 +80,47 @@ code {
 
 @layer components {
     .btn {
-        @apply border border-bermuda/60 bg-bermuda/60 hover:bg-transparent rounded-sm px-4 py-2;
+        @apply border border-bermuda bg-bermuda hover:bg-transparent font-semibold rounded-sm px-4 py-2;
     }
 
-    .my-img {
+    .social {
+        @apply flex flex-col items-center gap-4 absolute bottom-12 left-2 md:left-0 after:content-[''] after:h-8 after:w-0.5 after:bg-bermuda;
+    }
+
+    .about {
+        @apply flex flex-col xl:flex-row justify-center md:justify-between gap-12 my-24;
+    }
+
+    .bg-img {
+        @apply bg-gradient-to-br from-bermuda via-metal/40 to-bermuda w-60 h-60 lg:w-96 lg:h-96 rounded-3xl mx-auto;
+    }
+
+    .about-img {
         @apply w-60 h-60 lg:w-96 lg:h-96 rounded-3xl rotate-[10deg] hover:rotate-0 duration-500 mx-auto select-none;
     }
 
+    .about-card {
+        @apply flex flex-col md:flex-row justify-center md:justify-center items-center gap-8 mx-auto select-none;
+    }
+
     .card {
-        @apply w-40 h-40 lg:w-56 lg:h-56 bg-purple p-8 flex flex-col justify-center items-center rounded-3xl whitespace-nowrap;
+        @apply w-40 h-40 lg:w-56 lg:h-56 bg-night p-8 flex flex-col justify-center items-center rounded-3xl whitespace-nowrap;
     }
 
     .card:hover {
-        @apply bg-purple/30;
-    }
-
-    .title {
-        @apply text-2xl font-semibold pt-4 pb-1;
+        @apply bg-night/30;
     }
 
     .card p {
         @apply text-sm text-gray-400;
     }
 
+    .title {
+        @apply text-2xl font-semibold pt-4 pb-1;
+    }
+
     .experience {
-        @apply basis-1/2 bg-purple hover:bg-purple/0 hover:border hover:border-bermuda/30 p-4 md:p-12 rounded-3xl;
+        @apply basis-1/2 bg-night hover:bg-night/0 hover:border hover:border-bermuda hover:bg-shadow p-4 md:p-12 rounded-3xl;
     }
 
     .all-skill {
@@ -113,6 +129,10 @@ code {
 
     .skill {
         @apply text-left my-2;
+    }
+
+    .services {
+        @apply flex flex-col lg:flex-row items-center justify-center gap-8 mx-auto my-24;
     }
 
     .icon {
@@ -124,10 +144,16 @@ code {
     }
 
     .work {
-        @apply w-60 h-72 md:w-72 md:h-72 xl:w-96 xl:h-96 p-4 md:p-6 rounded-3xl bg-purple flex flex-col gap-4;
+        @apply w-60 md:w-72 xl:w-96 p-4 md:p-6 rounded-xl bg-midnight flex flex-col gap-4;
     }
 
     .contact {
         @apply flex flex-col gap-5 w-4/5 mx-auto;
+    }
+}
+
+@layer utilities {
+    .bg-shadow {
+        box-shadow: #01c38d 0px 2px 4px 0px, #01c38d 0px 2px 16px 0px;
     }
 }

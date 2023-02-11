@@ -11,20 +11,18 @@ import Testimonials from "./components/testimonials/Testimonials";
 
 function App() {
     return (
-        <>
-            <div className="container mx-auto">
-                <Particle />
-                <Header />
-                <Nav />
-                <About />
-                <Experience />
-                <Services />
-                <Portfolio />
-                <Testimonials />
-                <Contact />
-                <Footer />
-            </div>
-        </>
+        <div className="container mx-auto">
+            <Particle />
+            <Header />
+            <Nav />
+            <About />
+            <Experience />
+            <Services />
+            <Portfolio />
+            <Testimonials />
+            <Contact />
+            <Footer />
+        </div>
     );
 }
 

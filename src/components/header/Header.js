@@ -11,9 +11,13 @@ const Header = () => {
                 <h1 className="text-2xl font-semibold">
                     Md Moinur Mahbub Al Amin
                 </h1>
-                <h5> Mern Stack Developer </h5> <CTA />
+                <h5> Mern Stack Developer </h5>
+
+                <CTA />
+
                 <HeaderSocial />
-                <div className="mx-auto w-80 h-96 bg-gradient-to-b from-bermuda to-transparent rounded-t-full overflow-hidden mt-16 pt-20 px-6 pb-6">
+
+                <div className="mx-auto w-80 h-96 bg-gradient-to-b from-bermuda to-transparent rounded-t-full overflow-hidden mt-16 p-8">
                     <img
                         className="inline-block"
                         src={me}
@@ -21,7 +25,7 @@ const Header = () => {
                     />
                 </div>
                 <a
-                    className="absolute right-0 bottom-20 origin-center rotate-90 text-bermuda font-light hidden md:block"
+                    className="absolute right-0 bottom-20 origin-center rotate-90 text-bermuda text-lg font-light hidden md:block"
                     href="#contact"
                 >
                     Scroll Down
