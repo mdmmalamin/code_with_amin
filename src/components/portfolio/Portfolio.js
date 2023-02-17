@@ -1,5 +1,5 @@
 import React from "react";
-import portfolio1 from "../../assets/portfolio1.jpg";
+import portfolio1 from "../../assets/portfolio1.png";
 import portfolio2 from "../../assets/portfolio2.jpg";
 import portfolio3 from "../../assets/portfolio3.jpg";
 import portfolio4 from "../../assets/portfolio4.jpg";
@@ -10,8 +10,8 @@ const Portfolio = () => {
         {
             img: portfolio1,
             title: "Devs Den BD",
-            code: "https://www.github.com",
-            live: "https://www.github.com",
+            code: "https://github.com/devsdenbd/inhouse_web",
+            live: "http://devsdenbd.com/",
         },
         {
             img: portfolio5,
@@ -67,7 +67,7 @@ const Portfolio = () => {
                                 href={work.live}
                                 rel="noreferrer"
                             >
-                                Live Demo
+                                Live
                             </a>
                         </div>
                     </article>

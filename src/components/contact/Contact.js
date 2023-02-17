@@ -96,7 +96,10 @@ const Contact = () => {
                         placeholder="Your Message"
                         required
                     ></textarea>
-                    <button type="submit" className="btn bg-bermuda">
+                    <button
+                        type="submit"
+                        className="btn bg-bermuda hover:bg-shadow"
+                    >
                         Send Message
                     </button>
                 </form>

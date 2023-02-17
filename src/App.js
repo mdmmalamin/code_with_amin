@@ -11,7 +11,7 @@ import Testimonials from "./components/testimonials/Testimonials";
 
 function App() {
     return (
-        <div className="container border-[1px] bg-metal/10 border-t-0 border-b-0 border-bermuda mx-auto">
+        <div className="container mx-auto">
             <Particle />
             <Header />
             <Nav />
