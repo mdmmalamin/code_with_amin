@@ -11,7 +11,7 @@ const Portfolio = () => {
             img: portfolio1,
             title: "Devs Den BD",
             code: "https://github.com/devsdenbd/inhouse_web",
-            live: "http://devsdenbd.com/",
+            live: "http://devsden.tech/",
         },
         {
             img: portfolio5,
