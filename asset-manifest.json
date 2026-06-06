@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/code_with_amin/static/css/main.cedd3af4.css",
+    "main.js": "/code_with_amin/static/js/main.bc391181.js",
+    "static/js/787.906a6829.chunk.js": "/code_with_amin/static/js/787.906a6829.chunk.js",
+    "static/media/me.png": "/code_with_amin/static/media/me.73c314458202eb973e34.png",
+    "static/media/portfolio1.png": "/code_with_amin/static/media/portfolio1.65c0bc8ffd7dcaec8dd1.png",
+    "static/media/portfolio5.png": "/code_with_amin/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "static/media/portfolio2.jpg": "/code_with_amin/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/portfolio3.jpg": "/code_with_amin/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "static/media/Amin_CV.pdf": "/code_with_amin/static/media/Amin_CV.81ab0ef4153ec492239c.pdf",
+    "static/media/me-about.jpg": "/code_with_amin/static/media/me-about.c758bb3aa0074781ab7d.jpg",
+    "static/media/portfolio4.jpg": "/code_with_amin/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "index.html": "/code_with_amin/index.html",
+    "main.cedd3af4.css.map": "/code_with_amin/static/css/main.cedd3af4.css.map",
+    "main.bc391181.js.map": "/code_with_amin/static/js/main.bc391181.js.map",
+    "787.906a6829.chunk.js.map": "/code_with_amin/static/js/787.906a6829.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cedd3af4.css",
+    "static/js/main.bc391181.js"
+  ]
+}
